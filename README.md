@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 ## Download Datasets
 
-The CSK-PN dataset can be found at [[Google drive](https://github.com/jiangjiechen/uncommongen)] in jsonline format.
+The CSK-PN dataset can be found at [[Google drive](https://drive.google.com/drive/folders/1KqeIUVhqh7rUqbJwuIykYKFOq-K3VuYw?usp=sharing)] in jsonline format.
 
 Since running OpenAI models are costly, we also release the generated results by these LLMs along with the dataset (so it's a pretty big json per line). You will find them nested under `cg_pred`, `qa_pred`, etc.
 
