@@ -65,3 +65,23 @@ Same note as the CG task.
 ## Citation
 
 If you find our paper or resources useful, please kindly cite our paper. If you have any questions, please [contact us](mailto:jjchen19@fudan.edu.cn)!
+
+```latex
+@inproceedings{chen-etal-2023-say,
+    title = "Say What You Mean! Large Language Models Speak Too Positively about Negative Commonsense Knowledge",
+    author = "Chen, Jiangjie  and
+      Shi, Wei  and
+      Fu, Ziquan  and
+      Cheng, Sijie  and
+      Li, Lei  and
+      Xiao, Yanghua",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.550",
+    pages = "9890--9908",
+    abstract = "Large language models (LLMs) have been widely studied for their ability to store and utilize positive knowledge. However, negative knowledge, such as {``}lions don{'}t live in the ocean{''}, is also ubiquitous in the world but rarely mentioned explicitly in text.What do LLMs know about negative knowledge?This work examines the ability of LLMs on negative commonsense knowledge.We design a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs.Our experiments reveal that LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge, yet they can correctly answer polar yes-or-no questions.We term this phenomenon the belief conflict of LLMs.Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict.",
+}
+```
